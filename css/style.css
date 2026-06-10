@@ -57,11 +57,12 @@ body {
 }
 
 .hero button {
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 /* buttons */
 button {
+    padding: 10px 35px;
     border: none;
     outline: none;
     border-radius: 5px;
