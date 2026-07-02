@@ -17,8 +17,8 @@ body {
 
 .logo {
     padding: 20px 0px;
-    font-size: 24px;
-    color: #F9FAF8;
+    height: 90px;
+    width: 90px;
 
     display: flex;
 }
@@ -30,6 +30,7 @@ body {
     gap: 20px;
 
     display: flex;
+    align-items: center;
 }
 
 /* hero section */
@@ -41,6 +42,10 @@ body {
 .header, .hero {
     padding: 0px 48px;
     background-color: #1F2937;
+}
+
+.hero-text {
+    align-self: center;
 }
 
 .hero-main-text {
@@ -58,6 +63,12 @@ body {
 
 .hero button {
     margin-bottom: 48px;
+}
+
+#hero-image {
+    height: 500px;
+    margin: 50px 0px 50px 50px;
+    border: solid white 5px;
 }
 
 /* buttons */
