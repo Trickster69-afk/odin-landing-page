@@ -7,14 +7,11 @@ body {
     margin: 0px;
 }
 
-/* header section */
-.header {
-    background-color: #1F2937;
-
-    display: flex; 
-    justify-content: space-between;         
+html {
+    width: fit-content;
 }
 
+/* header section */
 .logo {
     padding: 20px 0px;
     height: 90px;
@@ -41,14 +38,12 @@ body {
 
 
 /* hero section */
-.hero {
+.header, .hero {
+    padding: 0px 200px;
+    background-color: #1F2937;
+
     display: flex;
     justify-content: space-between;
-}
-
-.header, .hero {
-    padding: 0px 48px;
-    background-color: #1F2937;
 }
 
 .hero-text {
@@ -73,9 +68,12 @@ body {
 }
 
 #hero-image {
+    width: fit-content;
     height: 500px;
     margin: 50px 0px 100px 100px;
     border: solid white 5px;
+    border-radius: 4px;
+    
 }
 
 /* illustrations */
