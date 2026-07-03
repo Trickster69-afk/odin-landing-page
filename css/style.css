@@ -63,10 +63,6 @@ html {
     color: #E5E7EB;
 }
 
-.hero button {
-    margin-bottom: 48px;
-}
-
 #hero-image {
     width: fit-content;
     height: 500px;
@@ -111,6 +107,7 @@ html {
 
 /* buttons */
 .hero button {
+    margin-bottom: 48px;
     padding: 10px 30px;
     border: none;
     outline: none;
